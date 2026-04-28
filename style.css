@@ -1,0 +1,62 @@
+body{
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+h1{
+    color: rgb(246, 0, 0);
+    font-size: 40px;
+    text-align: center;
+    font-family: "Rubik Storm";
+    font-weight: 400;
+    font-style: italic;
+    cursor: pointer;
+
+}
+p{
+    display: inline block;
+    color: white;
+    background: blue;
+    font-size: 20px;
+    cursor: progress;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+}
+
+.container{
+    width: 100%;
+}
+
+.div1{
+    float: right;
+    width: 33.33%;
+}
+.div2{
+    float: left;
+    width: 33.33%;
+
+}
+.div3{
+    float: left;
+    width: 33.33%;
+}
+
+
+.border{
+    height: 200px;
+    width: 200px;
+    margin: 250px ;
+    border-top: 1px solid red;
+    border-left: 1px dashed red;
+    border-bottom: 1px dotted red;
+    border-right: 4px double red;
+    
+    /*border: 2px solid white;
+    border-radius: 150px;*/
+}
