@@ -18,8 +18,8 @@ h1{
 }
 p{
     display: inline block;
-    color: white;
-    background: blue;
+    color: rgb(20, 19, 19);
+    background: rgb(222, 222, 233);
     font-size: 20px;
     cursor: progress;
 }
@@ -38,7 +38,7 @@ img{
     width: 33.33%;
 }
 .div2{
-    float: left;
+    float: right;
     width: 33.33%;
 
 }
